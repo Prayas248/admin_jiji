@@ -1,0 +1,31 @@
+
+.invoiceCounterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.invoiceCounterContainer img {
+  min-width: 20px;
+  max-width: 20px;
+  margin: 5px;
+}
+
+.counterContainer {
+  margin: 5px;
+}
+
+.counter {
+  font-size: 20px;
+  padding: 0px 5px;
+  margin-right: 7px;
+  border: 1px solid red;
+}
+
+.counterSmallText {
+  font-size: 12px;
+}
+
+

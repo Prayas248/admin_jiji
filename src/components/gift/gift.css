@@ -1,0 +1,107 @@
+.upper{
+    width: 100%;
+}
+.invoiceContainer {
+    display: flex;
+  
+  }
+  
+  .redDashboardContainer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .redDashboardItems {
+    padding: 8px 5px;
+  }
+  
+  .mainInvoiceContainer {
+    background-color: #e8e8e6;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .topButtons button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    width: fit-content;
+  }
+  .middleInputs button{
+    column-gap: 1cm;
+    background-color: white;
+    color: black;
+    width: fit-content;
+  }
+  .topButtons, .middleInputs, .redButtonsContainer{
+    text-align: left;
+  }
+  .middleInputs{
+    margin-top: 6px;
+    margin-left: 4px;
+    display: flex;
+    gap: 1cm;
+  }
+  .redButtonsContainer button {
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    margin: 4px 8px;
+  }
+  
+  .lastInputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftInputs button{
+    color: black;
+  }
+  .rightInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .drop{
+    margin-left: 0.2cm;
+    width: 120px;
+    height: 30px;
+  }
+  .settings-table {
+    border: 1px solid #ccc;
+  }
+  
+  .setting-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .setting-row:first-child {
+    border-top: none;
+  }
+  
+  .setting-label {
+    flex: 2;
+  }
+  
+  .setting-control {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .setting-control input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  

@@ -1,0 +1,23 @@
+
+.ordertoggleContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ordertoggleButton {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ordertoggleTrue {
+    background-color: green;
+  }
+  
+  .ordertoggleFalse {
+    background-color: grey;
+  }
+  
+  

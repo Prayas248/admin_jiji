@@ -1,0 +1,104 @@
+
+.orderinvoiceContainer {
+    display: flex;
+  
+  }
+  
+  .orderredDashboardContainer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .orderredDashboardItems {
+    padding: 8px 5px;
+  }
+  
+  .ordermainInvoiceContainer {
+    background-color: #e8e8e6;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .ordertopButtons button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    width: fit-content;
+  }
+  .ordermiddleInputs button{
+    column-gap: 1cm;
+    background-color: white;
+    color: black;
+    width: fit-content;
+    text-align: left;
+  }
+  .ordertopButtons, .orderrmiddleInputs, .orderredButtonsContainer{
+    text-align: left;
+  }
+  .ordermiddleInputs{
+    margin-top: 6px;
+    margin-left: 4px;
+  }
+  .orderredButtonsContainer button {
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    margin: 4px 8px;
+  }
+  
+  .orderlastInputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .orderleftInputs button{
+    color: black;
+  }
+  .orderrightInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .orderinvoiceTable table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .orderinvoiceTable th {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .orderinvoiceTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    border-top: hidden;
+    border-top: hidden;
+  }
+  
+  .orderinvoiceTable th {
+    background-color: white;
+  }
+  
+  .orderinvoiceTable td {
+    background-color: #e8e8e6;
+  }
+  .hiii{
+    width: 100%;
+  }
+  .circle {
+    width: 10px; /* Adjust width as needed */
+    height: 10px; /* Adjust height as needed */
+    background-color: #000; /* Set desired background color */
+    border-radius: 50%; /* Creates a circle */
+    margin: 0 auto; /* Centers the circle horizontally */
+  }
+  

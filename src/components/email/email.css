@@ -1,0 +1,87 @@
+
+.invoiceContainer {
+    display: flex;
+  
+  }
+  
+  .redDashboardContainer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .redDashboardItems {
+    padding: 8px 5px;
+  }
+  
+  .mainInvoiceContainer {
+    background-color: #e8e8e6;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .topButtons button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    width: fit-content;
+  }
+  .middleInputs button{
+    column-gap: 1cm;
+    background-color: white;
+    color: black;
+    width: fit-content;
+  }
+  .topButtons, .middleInputs, .redButtonsContainer{
+    text-align: left;
+  }
+  .middleInputs{
+    margin-top: 6px;
+    margin-left: 4px;
+  }
+  .redButtonsContainer button {
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    margin: 4px 8px;
+  }
+  
+  .lastInputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftInputs button{
+    color: black;
+  }
+  .rightInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .email-settings {
+    margin: 20px;
+  }
+  
+  .email-settings h2 {
+    margin-bottom: 10px;
+  }
+  
+  .setting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .setting label {
+    margin-right: 10px;
+  }
+  
+  .setting input[type="checkbox"] {
+    margin-right: 10px;
+  }

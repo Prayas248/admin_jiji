@@ -1,0 +1,89 @@
+
+.order-summary {
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .item-description {
+    flex: 2;
+  }
+  
+  .item-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .sku {
+    color: #555;
+  }
+  
+  .item-cost {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .shipping {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .summary {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .summary-item.paid {
+    font-weight: bold;
+  }
+  
+  .summary-item.date {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .refund-btn {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: flex-start;
+  }
+  
+  .note {
+    text-align: center;
+    color: #888;
+    font-size: 0.9em;
+    text-align: right;
+  }
+  

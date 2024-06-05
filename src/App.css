@@ -1,0 +1,11 @@
+/* src/App.css */
+.App { 
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}

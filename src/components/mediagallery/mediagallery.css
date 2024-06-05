@@ -1,0 +1,84 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.library {
+    width: 80%;
+    margin-left: 7cm;
+    background-color: rgb(212, 211, 211);
+  }
+  .mediabut{
+    display: flex;
+  }
+  h2{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 0.7cm;
+    font-size: 0.7cm;
+  }
+  .but{
+    background-color: white;
+    color: black;
+    height: 0.5cm;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .toolbar {
+    display: flex;
+    gap: 4cm;
+    width: 100%;
+  }
+  .searchmedia{
+    width: 5cm;
+    height: 0.5cm;
+    margin-left: 22.2cm;
+  }
+   .toolbar .mediabutton{
+    width: 4cm;
+    height: 0.5cm;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  .toolbar select{
+    width: 3cm;
+    height: 1cm;
+    margin-left: 0.7cm;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .image-container {
+    width: 100%;
+    padding-top: 100%; 
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .image-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #777;
+  }
+  
+  .load-more {
+    margin: 20px 0;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #777;
+  }
+  

@@ -1,0 +1,107 @@
+.top{
+  width: 85%;
+  margin-left: 5.6cm;
+}
+.invoiceContainer {
+    display: flex;
+  
+  }
+  
+  .redDashboardContainer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .redDashboardItems {
+    padding: 8px 5px;
+  }
+  
+  .mainInvoiceContainer {
+    background-color: #e8e8e6;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+  .topButtons button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    width: fit-content;
+  }
+   .middleInputs .but{
+    column-gap: 1cm;
+    background-color: white;
+    color: black;
+    width: fit-content;
+    display: block;
+    height: 0.8cm;
+    border: 1px solid black;
+  }
+  .topButtons, .middleInputs, .redButtonsContainer{
+    text-align: left;
+  }
+  .middleInputs{
+    margin-top: 6px;
+    margin-left: 4px;
+  }
+  .redButtonsContainer button {
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    margin: 4px 8px;
+  }
+  
+  .lastInputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftInputs{
+    display: flex;
+  }
+  .leftInputs button{
+    color: black;
+  }
+  .bulk{
+    display: block;
+    height: 1cm;
+    width: fit-content;
+  }
+  .rightInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .invoiceTable table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .invoiceTable th {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .invoiceTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    border-top: hidden;
+    border-top: hidden;
+  }
+  
+  .invoiceTable th {
+    background-color: white;
+  }
+  
+  .invoiceTable td {
+    background-color: #e8e8e6;
+  }
+  

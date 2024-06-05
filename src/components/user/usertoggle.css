@@ -1,0 +1,23 @@
+
+.usertoggleContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .usertoggleButton {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .usertoggleTrue {
+    background-color: green;
+  }
+  
+  .usertoggleFalse {
+    background-color: grey;
+  }
+  
+  

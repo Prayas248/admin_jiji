@@ -1,0 +1,56 @@
+
+.checkout-settings {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 95%;
+    background-color: rgb(223, 222, 222);
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tabs button {
+    padding: 10px;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    height: 1cm;
+    display: block;
+    border: 1px solid black;
+  }
+  
+  .settings label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .settings input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f0f0f0;
+  }
+  
+  table td button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #d0d0d0;
+    cursor: pointer;
+  }
+  

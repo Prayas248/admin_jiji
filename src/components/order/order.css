@@ -1,0 +1,81 @@
+
+  .order-details {
+    width: 30cm;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-left: 2cm;
+
+  }
+  
+  .order-details h2 {
+    margin-top: 0;
+  }
+  
+  .order-details p {
+    margin: 10px 0;
+  }
+  
+  .order-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .order-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .order-section:last-child {
+    margin-right: 0;
+  }
+  
+  .order-section h3 {
+    margin-top: 0;
+  }
+  
+  .order-section label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input, .order-section select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .generate-invoice-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .generate-invoice-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .order-section p {
+    margin: 5px 0;
+  }
+  
+  .order-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .order-section a:hover {
+    text-decoration: underline;
+  }
+  
+  

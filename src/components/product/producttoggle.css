@@ -1,0 +1,23 @@
+
+.toggleContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggleButton {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggleTrue {
+    background-color: green;
+  }
+  
+  .toggleFalse {
+    background-color: grey;
+  }
+  
+  
